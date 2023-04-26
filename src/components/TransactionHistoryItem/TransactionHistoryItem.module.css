@@ -1,0 +1,8 @@
+.item {
+    background-color: rgb(255, 255, 255);
+    color: grey;
+        &:nth-child(even) {
+            background-color: rgb(210, 210, 210);
+        }
+}
+
