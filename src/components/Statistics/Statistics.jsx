@@ -6,7 +6,10 @@ import css from './Statistics.module.css';
 export const Statistics = ({ title, stats }) => {
     return (
         <section className={css.statistics}>
-        <h2 className={css.title}>{title}</h2>
+            
+        {/* title не обязательный проп, рендерим title по условию "якщо title переданий як проп, 
+        то він повинен редериться. якщо не переданий то в розмітці нема пустого тега h2 (рендер по умові)" */}
+        {title && (<h2 className={css.title}>{title}</h2>)} 
 
         <ul className={css.statList}>
 
