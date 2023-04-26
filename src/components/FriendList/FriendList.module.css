@@ -1,0 +1,14 @@
+.friendList {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+
+
+
