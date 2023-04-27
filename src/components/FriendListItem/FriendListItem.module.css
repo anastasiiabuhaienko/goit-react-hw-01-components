@@ -32,10 +32,18 @@
     text-align: left;
 }
 
-.false {
+/* .false {
     background-color: rgb(227, 15, 15);
-  }
+  } */
   
-.true {
+/* .true {
+    background-color: rgb(4, 169, 4);
+} */
+
+.status.offline {
+    background-color: rgb(227, 15, 15);
+}
+
+.status.online {
     background-color: rgb(4, 169, 4);
 }
