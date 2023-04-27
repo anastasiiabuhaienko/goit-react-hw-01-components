@@ -32,18 +32,25 @@
     text-align: left;
 }
 
-/* .false {
-    background-color: rgb(227, 15, 15);
-  } */
-  
-/* .true {
-    background-color: rgb(4, 169, 4);
-} */
 
-.status.offline {
+/* вариант добавление дополнительного класса в зависимости от условия  */
+
+/* .status.offline {
     background-color: rgb(227, 15, 15);
 }
 
 .status.online {
+    background-color: rgb(4, 169, 4);
+} */
+
+
+
+
+/* добавление класса с помощью пакета clsx */
+.offline {
+    background-color: rgb(227, 15, 15);
+}
+
+.online {
     background-color: rgb(4, 169, 4);
 }
